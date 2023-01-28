@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DGital - Digital Agency HTML Template</title>
+    <title>MarkSoln - Marketing Solution Agency</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    <div class="container-xxl bg-white p-0">
+    <div id="prevent-select" class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -42,12 +42,11 @@
         </div>
         <!-- Spinner End -->
 
-
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0">DGital</h1>
+                    <h1 class="m-0">MarkSoln.</h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -57,8 +56,19 @@
                     <div class="navbar-nav mx-auto py-0">
                         <a href="index.html" class="nav-item nav-link">Home</a>
                         <a href="about.html" class="nav-item nav-link active">About</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
-                        <a href="project.html" class="nav-item nav-link">Project</a>
+                        <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
+                        <div class="nav-item dropdown">
+                            <a href="service.html" class="nav-link dropdown-toggle-split" data-bs-toggle="dropdown-toggle">Services</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="shopify.html" class="dropdown-item">Shopify</a>
+                                <a href="seo-optimization.html" class="dropdown-item">SEO</a>
+                                <a href="front-end-web-development.html" class="dropdown-item">Web Development</a>
+                                <a href="ads-management.html" class="dropdown-item">ADs Management</a>
+                                <a href="video-editing.html" class="dropdown-item">Video Editing</a>
+                                <a href="influencer-marketing.html" class="dropdown-item">Influencer Marketing</a>
+                            </div>
+                        </div>
+                        <!-- <a href="project.html" class="nav-item nav-link">Project</a> -->
                         <a href="brandvideo.html" class="nav-item nav-link">Brand Video</a>
                         <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
@@ -67,7 +77,7 @@
                                 <a href="brandvideo.html" class="dropdown-item">Brand Video</a>
                             </div>
                         </div> -->
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
                     </div>
                     <a href="get-started.html" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
                 </div>
@@ -95,75 +105,80 @@
 
 
         <!-- Feature Start -->
-        <div class="container-xxl py-5">
+        <!-- <div class="container-xxl py-5">
             <div class="container py-5 px-lg-5">
                 <div class="row g-4">
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="feature-item bg-light rounded text-center p-4">
-                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
-                            <h5 class="mb-3">Digital Marketing</h5>
+                            <img class="img-fluid wow mb-5" data-wow-delay="0.5s" src="img/digital-marketing-landing-1.jpg" alt="Digital-Marketing">
+                            <h5 class="mb-3 text-primary">Digital Marketing</h5>
                             <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="feature-item bg-light rounded text-center p-4">
-                            <i class="fa fa-3x fa-search text-primary mb-4"></i>
-                            <h5 class="mb-3">SEO & Backlinks</h5>
+                            <img class="img-fluid wow zoomIn mb-5" data-wow-delay="0.5s" src="img/seo-backlink-landing-4.jpeg" alt="Seo-Backlink">
+                            <h5 class="mb-3  text-primary">SEO & Backlinks</h5>
                             <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="feature-item bg-light rounded text-center p-4">
-                            <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
-                            <h5 class="mb-3">Design & Development</h5>
+                            <img class="img-fluid wow zoomIn mb-5" width="330px" data-wow-delay="0.5s" src="img/editing-development-landing-3.webp" alt="Editing-Development">
+                            <h5 class="mb-3  text-primary">Editing & Development</h5>
                             <p class="m-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Feature End -->
 
 
         <!-- About Start -->
         <div class="container-xxl py-5">
             <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="section-title text-secondary justify-content-center"><span></span>About Us<span></span></p>
+                    <!-- <h1 class="text-center mb-5">What <span class="text-primary">Solutions</span> We Provide</h1> -->
+                </div>
                 <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/about-landing.png" alt="About-Us">
+                    </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <p class="section-title text-secondary">About Us<span></span></p>
-                        <h1 class="mb-5">#1 Digital solution with 10 years of experience</h1>
-                        <p class="mb-4">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo eirmod magna dolore erat amet</p>
+                        <h1 class="mb-5">#1 <span class="text-primary">Digital</span> solution with 10 years of experience</h1>
+                        <p class="mb-4">We seamlessly blend data, content, and technology to create truly impactful experiences for individuals and brands alike. We strive to make every interaction memorable and meaningful. We are dedicated to utilizing the unique intersection of these elements to enhance the value of your brand and exceed your expectations.</p>
                         <div class="skill mb-4">
                             <div class="d-flex justify-content-between">
                                 <p class="mb-2">Digital Marketing</p>
-                                <p class="mb-2">85%</p>
+                                <p class="mb-2">92%</p>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="skill mb-4">
                             <div class="d-flex justify-content-between">
                                 <p class="mb-2">SEO & Backlinks</p>
-                                <p class="mb-2">90%</p>
+                                <p class="mb-2">88%</p>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="skill mb-4">
                             <div class="d-flex justify-content-between">
-                                <p class="mb-2">Design & Development</p>
+                                <p class="mb-2">Editing & Development</p>
                                 <p class="mb-2">95%</p>
                             </div>
                             <div class="progress">
                                 <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <a href="" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3">Read More</a>
-                    </div>
-                    <div class="col-lg-6">
-                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/about.png">
+                        <!-- <div id="button-project" class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                            <a href="service.html" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3">Our Services</a>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -201,7 +216,7 @@
         <!-- Facts End -->
 
         <!-- Facts Start -->
-        <div class="container-xxl bg-primary fact py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <!-- <div class="container-xxl bg-primary fact py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container py-5 px-lg-5">
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
@@ -226,19 +241,22 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Facts End -->
         
 
         <!-- Team Start -->
+        <!-- Co-Founder Section -->
         <div class="container-xxl py-5">
             <div class="container py-5 px-lg-5">
                 <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="section-title text-secondary justify-content-center"><span></span>Our Team<span></span></p>
-                    <h1 class="text-center mb-5">Our Team Members</h1>
+                    <p class="section-title text-secondary justify-content-center"><span></span>Who We Are<span></span></p>
+                    <h1 class="text-center mb-5">Meet Our <span class="text-primary">Co-Founders</span></h1>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div  class="row g-4">
+                <!-- id="team-members" -->
+
+                    <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item bg-light rounded">
                             <div class="text-center border-bottom p-4">
                                 <img class="img-fluid rounded-circle mb-4" src="img/team-1.jpg" alt="">
@@ -252,41 +270,70 @@
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
+                    </div> -->
+                    <div class="col-lg-1 col-md-6" data-wow-delay="0.3s">
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item bg-light rounded">
                             <div class="text-center border-bottom p-4">
-                                <img class="img-fluid rounded-circle mb-4" src="img/team-2.jpg" alt="">
-                                <h5>Jessica Brown</h5>
-                                <span>Web Designer</span>
+                                <img class="img-fluid rounded-circle mb-4" src="img/sohom.jpg" alt="Co Founder-Sohom">
+                                <h5>Sohom Mondal</h5>
+                                <span><p class="co-founder-text">Co-Founder</p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nostrum reiciendis ratione laudantium velit doloremque fugit perferendis quaerat neque officia. Commodi vel eaque hic. Ullam reiciendis accusantium dolorum soluta natus.</span>
                             </div>
                             <div class="d-flex justify-content-center p-4">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-lg fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-lg fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-lg fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-lg fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item bg-light rounded">
                             <div class="text-center border-bottom p-4">
-                                <img class="img-fluid rounded-circle mb-4" src="img/team-3.jpg" alt="">
-                                <h5>Tony Johnson</h5>
-                                <span>SEO Expert</span>
+                                <img class="img-fluid rounded-circle mb-4" src="img/soura.jpg" alt="Co Founder-Souradeep">
+                                <h5>Souradeep Ghosh</h5>
+                                <span><p class="co-founder-text">Co-Founder</p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nostrum reiciendis ratione laudantium velit doloremque fugit perferendis quaerat neque officia. Commodi vel eaque hic. Ullam reiciendis accusantium dolorum soluta natus.</span>
                             </div>
                             <div class="d-flex justify-content-center p-4">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-lg fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-lg fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-lg fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-lg fa-linkedin-in"></i></a>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-lg-1 col-md-6" data-wow-delay="0.3s">
                     </div>
                 </div>
             </div>
         </div>
         <!-- Team End -->
+
+        <!-- Get in Touch Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="section-title text-secondary justify-content-center"><span></span>What we Provide<span></span></p>
+                </div>
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5">
+                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/about-services.webp" alt="Get-In-Touch">
+                    </div>
+                    <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.1s">
+                        
+                        <h1 class="mb-5"><span class="text-primary"> Grow</span> your Business with Us</h1>
+                        <h3 class="text-black mb-4">Why should you work with US?</h3>
+                        <p class="mb-4">Clients come to us with a broad range of business problems and the solutions vary dramatically.</p>
+                        <div id="button-project" class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                            <a href="service.html" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3">View Services</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Get In Touch End -->
         
 
         <!-- Footer Start -->
@@ -294,11 +341,11 @@
             <div class="container py-5 px-lg-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-3">
-                        <p class="section-title text-white h5 mb-4">Address<span></span></p>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>Kolkata & Howrah, India</p>
+                        <p class="section-title text-white h5 mb-4">Know More<span></span></p>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Howrah & Kolkata, India</p>
                         <p><i class="fa fa-phone-alt me-3"></i>+91 84208 35152</p>
                         <p><i class="fa fa-phone-alt me-3"></i>+91 74774 44383</p>
-                        <p><i class="fa fa-envelope me-3"></i><a class="text-white" href="mailto:amazonuse79@gmail.com">contact-us@shopezstore.com</a></p>
+                        <p><i class="fa fa-envelope me-3"></i><a class="text-white" href="mailto:amazonuse79@gmail.com">contact@marksoln.in</a></p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -308,18 +355,20 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <p class="section-title text-white h5 mb-4">Quick Link<span></span></p>
+                        <p class="section-title text-white h5 mb-4">Quick Links<span></span></p>
                         <a class="btn btn-link" href="about.html">About Us</a>
                         <a class="btn btn-link" href="service.html">Services</a>
                         <a class="btn btn-link" href="project.html">Projects</a>
-                        <a class="btn btn-link" href="contact.html">Contact Us</a>
                     </div>
                     <div class="col-md-6 col-lg-3">
-                        <p class="section-title text-white h5 mb-4">Information<span></span></p>
-                        <a class="btn btn-link" href="privacy-policy.html">Privacy Policy</a>
+                        <p class="section-title text-white h5 mb-4">Useful Links<span></span></p>
+                        <!-- <p class="section-title text-white h5 mb-4">Information<span></span></p> -->
+                        <!-- <a class="btn btn-link" href="privacy-policy.html">Privacy Policy</a>
                         <a class="btn btn-link" href="terms.html">Terms & Condition</a>
-                        <a class="btn btn-link" href="career.html">Career</a>
+                        <a class="btn btn-link" href="career.html">Career</a> -->
+                        <a class="btn btn-link" href="get-started.html">Get Started</a>
                         <a class="btn btn-link" href="brandvideo.html">Brand Video</a>
+                        <a class="btn btn-link" href="contact.html">Contact Us</a>
                     </div>
                     <!-- <div class="col-md-6 col-lg-3">
                         <p class="section-title text-white h5 mb-4">Gallery<span></span></p>
@@ -345,7 +394,7 @@
                         </div>
                     </div> -->
                     <div class="col-md-6 col-lg-3">
-                        <p class="section-title text-white h5 mb-4">Newsletter<span></span></p>
+                        <p class="section-title text-white h5 mb-4">Get in Touch<span></span></p>
                         <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu</p>
                         <form action="https://formspree.io/f/mnqynkld" method="POST">
                             <div class="position-relative w-100 mt-3">
@@ -360,16 +409,15 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Rights Reserved
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            &copy Copyright <a id="footer-brandname" class="border-bottom" href="index.html">MarkSoln.</a> All Rights Reserved
+						
 							<br>
-                            <span id="designed">Designed By <a class="border-bottom" href="https://htmlcodex.com" target="_blank">HTML Codex</a></span>
+                            <span id="designed">Designed By <a href="https://htmlcodex.com" target="_blank">HTML Codex</a></span>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
                                 <a href="index.html">Home</a>
-                                <a href="help.html">Help</a>
+                                <a href="contact.html">Help</a>
                                 <a href="faq.html">FAQs</a>
                             </div>
                         </div>
