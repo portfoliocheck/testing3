@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DGital - Digital Agency HTML Template</title>
+    <title>MarkSoln - Marketing Solution Agency</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -282,7 +282,7 @@ body, .container1, .video-controls, .video-timer, .options{
 </head>
 
 <body>
-    <div class="container-xxl bg-white p-0">
+    <div id="prevent-select" class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -295,36 +295,47 @@ body, .container1, .video-controls, .video-timer, .options{
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
           <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-            <a href="" class="navbar-brand p-0">
-                <h1 class="m-0">MarkSoln</h1>
-                <!-- <img src="img/logo.png" alt="Logo"> -->
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Service</a>
-                    <a href="project.html" class="nav-item nav-link">Project</a>
-                    <a href="brandvideo.html" class="nav-item nav-link active">Brand Video</a>
-                    <!-- <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="brandvideo.html" class="dropdown-item">Brand Video</a>
-                        </div>
-                    </div> -->
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-                <a href="get-started.html" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
-            </div>
-        </nav>
+              <a href="" class="navbar-brand p-0">
+                  <h1 class="m-0">MarkSoln.</h1>
+                  <!-- <img src="img/logo.png" alt="Logo"> -->
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                  <span class="fa fa-bars"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <div class="navbar-nav mx-auto py-0">
+                      <a href="index.html" class="nav-item nav-link">Home</a>
+                      <a href="about.html" class="nav-item nav-link">About</a>
+                      <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
+                      <div class="nav-item dropdown">
+                          <a href="service.html" class="nav-link dropdown-toggle-split" data-bs-toggle="dropdown-toggle">Services</a>
+                          <div class="dropdown-menu m-0">
+                              <a href="shopify.html" class="dropdown-item">Shopify</a>
+                              <a href="seo-optimization.html" class="dropdown-item">SEO</a>
+                              <a href="front-end-web-development.html" class="dropdown-item">Web Development</a>
+                              <a href="ads-management.html" class="dropdown-item">ADs Management</a>
+                              <a href="video-editing.html" class="dropdown-item">Video Editing</a>
+                              <a href="influencer-marketing.html" class="dropdown-item">Influencer Marketing</a>
+                          </div>
+                      </div>
+                      <!-- <a href="project.html" class="nav-item nav-link">Project</a> -->
+                      <a href="brandvideo.html" class="nav-item nav-link active">Brand Video</a>
+                      <!-- <div class="nav-item dropdown">
+                          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+                          <div class="dropdown-menu m-0">
+                              <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                              <a href="brandvideo.html" class="dropdown-item">Brand Video</a>
+                          </div>
+                      </div> -->
+                      <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                  </div>
+                  <a href="get-started.html" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
+              </div>
+          </nav>
 
             <div class="container-xxl py-5 bg-primary hero-header">
                 <div class="container my-5 py-5 px-lg-5">
-                    <div class="row g-5 py-5">
+                    <div class="row g-5 py-2">
                         <div class="col-12 text-center">
                             <h1 class="text-white animated slideInDown">Brand Video</h1>
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
@@ -343,97 +354,140 @@ body, .container1, .video-controls, .video-timer, .options{
         <!-- Navbar & Hero End -->
 
 
-        <!-- 404 Start -->
-        <div class="container-xxl fact py-5 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="container-xxl py-1">
-            <div class="container py-1 px-lg-5">
+        <!-- Feeling Start -->
+        <div class="container-xxl py-5">
+          <div class="container py-5 px-lg-5">
               <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <h3 class="text-center mb-5">Dont have much time to Scroll? We got You!<br>
-                    Watch our Brand Video and you'll get to know About Us!</h3>
-                </div>
+                  <p class="section-title text-secondary justify-content-center mb-2"><span></span>No Need to Scroll More<span></span></p>
+              </div>
+              <div class="row g-5 align-items-center">
+                  <div class="col-lg-6">
+                      <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/bored-brand-video.jpg" alt="Get-In-Touch">
+                  </div>
+                  <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                      
+                      <h1 class="mb-5">Feeling <span class="text-primary">Bored</span> to Scroll through the website?</h1>
+                      <h3 class="text-black mb-4">We got you! Now no need to scroll and read!</h3>
+                      <p class="mb-4">We presents infront of you, our small creation of who we are, what we do, why to choose us, what we provide and a lot more. So don't wait, just watch it and get started if we are compatible.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Feeling End -->
+
+        <!-- Video Start -->
+        <div class="container-xxl fact py-5" data-wow-delay="0.1s">
+          <div class="container-xxl py-1">
+          </div>
+          <div class="" data-wow-delay="0.1s">
+            <div class="container1 show-controls">
+              <div class="wrapper">
+                  <div class="video-timeline">
+                      <div class="progress-area">
+                          <span>00:00</span>
+                          <div class="progress-bar"></div>
+                      </div>
+                  </div>
+                  <ul class="video-controls">
+                      <li class="options left">
+                          <button class="volume"><i class="fa-solid fa-volume-high"></i></button>
+                          <input type="range" min="0" max="1" step="any">
+                          <div class="video-timer">
+                              <p class="current-time">00:00</p>
+                              <p class="separator">  </p>
+                              <p> / </p>
+                              <p class="separator"> </p>
+                              <p class="video-duration">00:00</p>
+                              
+                          </div>
+                      </li>
+                      <li class="options center">
+                          <button class="skip-backward"><i class="fas fa-backward"></i></button>
+                          <button class="play-pause"><i class="fas fa-play"></i></button>
+                          <button class="skip-forward"><i class="fas fa-forward"></i></button>
+                      </li>
+                      <li class="options right">
+                          <div class="playback-content">
+                              <button class="playback-speed"><span class="material-symbols-rounded">slow_motion_video</span></button>
+                              <ul class="speed-options">
+                                  <li data-speed="2">2x</li>
+                                  <li data-speed="1.5">1.5x</li>
+                                  <li data-speed="1" class="active">Normal</li>
+                                  <li data-speed="0.75">0.75x</li>
+                                  <li data-speed="0.5">0.5x</li>
+                              </ul>
+                          </div>
+                          <button class="pic-in-pic"><span class="material-icons">picture_in_picture_alt</span></button>
+                          <button class="fullscreen"><i class="fa-solid fa-expand"></i></button>
+                      </li>
+                  </ul>
+              </div>
+              <video src="demo.mp4"></video>
             </div>
-        </div>
-        <div class="wow fadeInUp" data-wow-delay="0.1s">
-          <div class="container1 show-controls">
-            <div class="wrapper">
-                <div class="video-timeline">
-                    <div class="progress-area">
-                        <span>00:00</span>
-                        <div class="progress-bar"></div>
-                    </div>
-                </div>
-                <ul class="video-controls">
-                    <li class="options left">
-                        <button class="volume"><i class="fa-solid fa-volume-high"></i></button>
-                        <input type="range" min="0" max="1" step="any">
-                        <div class="video-timer">
-                            <p class="current-time">00:00</p>
-                            <p class="separator">  </p>
-                            <p> / </p>
-                            <p class="separator"> </p>
-                            <p class="video-duration">00:00</p>
-                            
-                        </div>
-                    </li>
-                    <li class="options center">
-                        <button class="skip-backward"><i class="fas fa-backward"></i></button>
-                        <button class="play-pause"><i class="fas fa-play"></i></button>
-                        <button class="skip-forward"><i class="fas fa-forward"></i></button>
-                    </li>
-                    <li class="options right">
-                        <div class="playback-content">
-                            <button class="playback-speed"><span class="material-symbols-rounded">slow_motion_video</span></button>
-                            <ul class="speed-options">
-                                <li data-speed="2">2x</li>
-                                <li data-speed="1.5">1.5x</li>
-                                <li data-speed="1" class="active">Normal</li>
-                                <li data-speed="0.75">0.75x</li>
-                                <li data-speed="0.5">0.5x</li>
-                            </ul>
-                        </div>
-                        <button class="pic-in-pic"><span class="material-icons">picture_in_picture_alt</span></button>
-                        <button class="fullscreen"><i class="fa-solid fa-expand"></i></button>
-                    </li>
-                </ul>
-            </div>
-            <video src="demo.mp4"></video>
           </div>
         </div>
-      </div>
-        <!-- 404 End -->
+        <!-- Video End -->
+
+      
+        <!-- Get in Touch Start -->
+        <div class="container-xxl py-5">
+          <div class="container py-5 px-lg-5">
+              <div class="wow fadeInUp" data-wow-delay="0.1s">
+                  <p class="section-title text-secondary justify-content-center"><span></span>Get In Touch<span></span></p>
+              </div>
+              <div class="row g-5 align-items-center">
+                  <div class="col-lg-5">
+                      <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/get-started-brand-video.jpg" alt="Get-In-Touch">
+                  </div>
+                  <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                      
+                      <h1 class="mb-5"><span class="text-primary"> Grow</span> your Business with Us</h1>
+                      <h3 class="text-black mb-4">Liked what you saw? Say us!</h3>
+                      <p class="mb-4">Clients come to us with a broad range of business problems and the solutions vary dramatically.</p>
+                      <div id="button-project" class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                          <a href="get-started.html" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3">Get Started</a>
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+        </div>
+      <!-- Get In Touch End -->
         
 
         <!-- Footer Start -->
         <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
           <div class="container py-5 px-lg-5">
               <div class="row g-5">
-                  <div class="col-md-6 col-lg-3">
-                      <p class="section-title text-white h5 mb-4">Address<span></span></p>
-                      <p><i class="fa fa-map-marker-alt me-3"></i>Kolkata & Howrah, India</p>
-                      <p><i class="fa fa-phone-alt me-3"></i>+91 84208 35152</p>
-                      <p><i class="fa fa-phone-alt me-3"></i>+91 74774 44383</p>
-                      <p><i class="fa fa-envelope me-3"></i><a class="text-white" href="mailto:amazonuse79@gmail.com">contact-us@shopezstore.com</a></p>
-                      <div class="d-flex pt-2">
-                          <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                          <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                          <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
-                          <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                          <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                      </div>
+                <div class="col-md-6 col-lg-3">
+                  <p class="section-title text-white h5 mb-4">Know More<span></span></p>
+                  <p><i class="fa fa-map-marker-alt me-3"></i>Howrah & Kolkata, India</p>
+                  <p><i class="fa fa-phone me-3"></i>+91 84208 35152</p>
+                  <p><i class="fa fa-phone me-3"></i>+91 74774 44383</p>
+                  <p><i class="fa fa-envelope me-3"></i><a class="text-white" href="mailto:amazonuse79@gmail.com">contact@marksoln.in</a></p>
+                  <div class="d-flex pt-2">
+                      <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                      <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                      <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                      <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                      <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
                   </div>
+              </div>
                   <div class="col-md-6 col-lg-3">
-                      <p class="section-title text-white h5 mb-4">Quick Link<span></span></p>
+                      <p class="section-title text-white h5 mb-4">Quick Links<span></span></p>
                       <a class="btn btn-link" href="about.html">About Us</a>
                       <a class="btn btn-link" href="service.html">Services</a>
                       <a class="btn btn-link" href="project.html">Projects</a>
-                      <a class="btn btn-link" href="contact.html">Contact Us</a>
                   </div>
                   <div class="col-md-6 col-lg-3">
-                      <p class="section-title text-white h5 mb-4">Information<span></span></p>
-                      <a class="btn btn-link" href="privacy-policy.html">Privacy Policy</a>
+                      <p class="section-title text-white h5 mb-4">Useful Links<span></span></p>
+                      <!-- <p class="section-title text-white h5 mb-4">Information<span></span></p> -->
+                      <!-- <a class="btn btn-link" href="privacy-policy.html">Privacy Policy</a>
                       <a class="btn btn-link" href="terms.html">Terms & Condition</a>
-                      <a class="btn btn-link" href="career.html">Career</a>
+                      <a class="btn btn-link" href="career.html">Career</a> -->
+                      <a class="btn btn-link" href="get-started.html">Get Started</a>
                       <a class="btn btn-link" href="brandvideo.html">Brand Video</a>
+                      <a class="btn btn-link" href="contact.html">Contact Us</a>
                   </div>
                   <!-- <div class="col-md-6 col-lg-3">
                       <p class="section-title text-white h5 mb-4">Gallery<span></span></p>
@@ -459,9 +513,9 @@ body, .container1, .video-controls, .video-timer, .options{
                       </div>
                   </div> -->
                   <div class="col-md-6 col-lg-3">
-                      <p class="section-title text-white h5 mb-4">Newsletter<span></span></p>
+                      <p class="section-title text-white h5 mb-4">Get in Touch<span></span></p>
                       <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu</p>
-                      <form action="https://formspree.io/f/mnqynkld" method="POST">
+                      <form action="https://formspree.io/f/xbjedgzg" method="POST">
                           <div class="position-relative w-100 mt-3">
                               <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" name="email" type="text" placeholder="Your Email" style="height: 48px;">
                               <button type="submit" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
@@ -474,16 +528,12 @@ body, .container1, .video-controls, .video-timer, .options{
               <div class="copyright">
                   <div class="row">
                       <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                          &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Rights Reserved
-            
-            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            <br>
-                          <span id="designed">Designed By <a class="border-bottom" href="https://htmlcodex.com" target="_blank">HTML Codex</a></span>
+                          &copy Copyright <a id="footer-brandname" class="" href="index.html">MarkSoln.</a> All Rights Reserved<span id="designed">Designed By <a href="https://htmlcodex.com" target="_blank">HTML Codex</a></span>
                       </div>
                       <div class="col-md-6 text-center text-md-end">
                           <div class="footer-menu">
                               <a href="index.html">Home</a>
-                              <a href="help.html">Help</a>
+                              <a href="contact.html">Help</a>
                               <a href="faq.html">FAQs</a>
                           </div>
                       </div>
@@ -492,7 +542,6 @@ body, .container1, .video-controls, .video-timer, .options{
           </div>
       </div>
       <!-- Footer End -->
-
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
